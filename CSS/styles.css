@@ -21,13 +21,14 @@ body {
  height: 20vh;
 }
 
-.main image div { 
+/*Hompage Content Code*/
+.main-image div { 
  background-color: aquamarine;
  width: 100vw;
  height: 70vh;
 }
 
-.main image {
+.main-image img {
  max-width: 100vw;
  max-height: 70vh;
 }
@@ -38,7 +39,7 @@ body {
  height: 10vw;
 }
 
-.intro blurb {
+.intro-blurb div {
  background-color: darkred;
  width: 50vw;
  height: 10vw;
