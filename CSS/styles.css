@@ -4,6 +4,12 @@ body {
  padding: 0px;
 }
 
+.webpage-name {
+ background-color: darkorange;
+ width: 30vw;
+ height: 10vh;
+}
+
 .webpage-name h1{
  color: lawngreen;
  font-family: sans-serif;
