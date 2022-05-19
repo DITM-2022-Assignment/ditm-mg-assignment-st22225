@@ -1,6 +1,6 @@
 body { 
  background-color: mintcream;
- margin: 50px;
+ margin: 0px;
  padding: 0px;
 }
 
@@ -8,4 +8,9 @@ body {
  background-color: blue;
  width: 100vw;
  height: 50vh;
+}
+
+.main image div { 
+ max-width: fit-content;
+ max-height: fit-content;
 }
