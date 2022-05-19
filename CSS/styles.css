@@ -14,3 +14,9 @@ body {
  max-width: fit-content;
  max-height: fit-content;
 }
+
+.quote div {
+ background-color: deeppink;
+ width: 50vw;
+ height: 10vw;
+}
