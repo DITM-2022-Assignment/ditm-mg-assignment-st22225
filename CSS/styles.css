@@ -47,6 +47,12 @@ body {
  height: 10vw;
 }
 
+.quote div h1 {
+ color: goldenrod;
+ font-family: sans-serif;
+ margin: 5%;
+}
+
 .intro-blurb div {
  background-color: darkred;
  width: 50vw;
