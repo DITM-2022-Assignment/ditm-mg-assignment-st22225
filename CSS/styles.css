@@ -52,3 +52,8 @@ body {
  width: 50vw;
  height: 10vw;
 }
+
+.intro-blurb p {
+ color: mediumseagreen;
+ font-family: sans-serif;
+}
