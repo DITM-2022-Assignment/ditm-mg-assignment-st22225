@@ -20,13 +20,15 @@ body {
 .webpage-name h1{
  color: lawngreen;
  font-family: sans-serif;
+ padding: 0px;
+ margin: 0px;
 }
 
 /*Navigation Bar Code*/ 
 .navigation-div {
  background-color: blue;
  width: 70vw;
- height: 20vh;
+ height: 10vh;
 }
 
 /*Hompage Content Code*/
@@ -62,4 +64,9 @@ body {
 .intro-blurb p {
  color: mediumseagreen;
  font-family: sans-serif;
+}
+
+h1 {
+padding: 0px;
+margin: 0px;
 }
