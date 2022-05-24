@@ -31,6 +31,32 @@ body {
  height: 10vh;
 }
 
+.navigation-div ul {
+ display: flex; 
+ align-items: center; 
+ justify-content: center; 
+}
+   
+.navigation-div ul li {
+ list-style-type: none;
+ display: inline-block;
+ margin: 2%;
+ font-style: normal;
+}
+   
+.top-div ul li a{ 
+ text-decoration: none;
+ color:cornsilk;
+ transition: 0.3s ease 0s;
+ text-shadow: 5px 5px;
+ text-decoration: dotted;
+}
+
+.top-div ul li a:hover { 
+ color: green;
+ text-decoration: underline;
+}
+   
 /*Hompage Content Code*/
 /*.main-image div { 
  background-color: aquamarine;
