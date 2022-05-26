@@ -45,15 +45,15 @@ body {
  font-style: normal;
 }
    
-.top-div ul li a{ 
+.nagivation-div ul li a{ 
  text-decoration: none;
- color:cornsilk;
+ color: mediumvioletred;
  transition: 0.3s ease 0s;
  text-shadow: 5px 5px;
  text-decoration: dotted;
 }
 
-.top-div ul li a:hover { 
+.navigation-div ul li a:hover { 
  color: green;
  text-decoration: underline;
 }
@@ -92,8 +92,3 @@ body {
  color: mediumseagreen;
  font-family: sans-serif;
 }
-
-h1 {
-padding: 0px;
-margin: 0px;
-}*/
