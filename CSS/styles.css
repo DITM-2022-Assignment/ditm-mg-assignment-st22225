@@ -48,8 +48,8 @@ body {
 .nagivation-div ul li a{ 
  text-decoration: none;
  color: mediumvioletred;
- transition: 0.3s ease 0s;
- text-shadow: 5px 5px;
+ transition: 0.3s ease 0s; 
+ text-shadow: 5px 5px; color: darkmagenta;
  text-decoration: dotted;
 }
 
