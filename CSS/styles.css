@@ -1,106 +1,107 @@
-body { 
- background-color: mintcream;
- margin: 0px;
- padding: 0px;
+body {
+  background-color: mintcream;
+  margin: 0px;
+  padding: 0px;
 }
 
 .solutions.html body {
- background-color: darkcyan;
+  background-color: darkcyan;
 }
 
 .about.html body {
- background-color: chartreuse;
+  background-color: chartreuse;
 }
 
 .donation-faq.html body {
- background-color: crimson;
+  background-color: crimson;
 }
 
-.flex { 
- display: flex;
- align-items: center;
- justify-content: center;
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Logo Code*/
-.webpage-name div { 
- background-color: darkorange;
- width: 30vw;
- height: 10vh;
+.webpage-name div {
+  background-color: darkorange;
+  width: 30vw;
+  height: 10vh;
 }
 
-.webpage-name p {
- color: lawngreen;
- font-family: sans-serif;
- padding: 0px;
- margin: 0px;
+.webpage-name h1 {
+  color: lawngreen;
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 
-/*Navigation Bar Code*/ 
+/*Navigation Bar Code*/
 .navigation-div {
- background-color: yellow;
- width: 70vw;
- height: 10vh;
+  background-color: yellow;
+  width: 70vw;
+  height: 10vh;
 }
 
 .navigation-div ul {
- display: flex; 
- align-items: center; 
- justify-content: center; 
-}
-   
-.navigation-div ul li {
- list-style-type: none;
- display: inline-block;
- margin: 2%;
- font-family: sans-serif;
- font-style: normal;
-}
-   
-.nagivation-div ul li a{ 
- text-decoration: none;
- color: mediumvioletred;
- transition: 0.3s ease 0s; 
- text-shadow: 5px 5px; color: darkmagenta;
- text-decoration: dotted;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.navigation-div ul li a:hover { 
- color: green;
- text-decoration: underline;
+.navigation-div ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 2%;
+  font-family: sans-serif;
+  font-style: normal;
 }
-   
+
+.nagivation-div ul li a {
+  text-decoration: none;
+  color: mediumvioletred;
+  transition: 0.3s ease 0s;
+  text-shadow: 5px 5px;
+  color: darkmagenta;
+  text-decoration: dotted;
+}
+
+.navigation-div ul li a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
 /*Hompage Content Code*/
-.main-image div { 
- background-color: aquamarine;
- width: 100vw;
- height: 90vh;
+.main-image div {
+  background-color: aquamarine;
+  width: 100vw;
+  height: 90vh;
 }
 
 .main-image img {
- max-width: 100vw;
- max-height: 90vh;
+  max-width: 100vw;
+  max-height: 90vh;
 }
 
-.quote div {
- background-color: deeppink;
- width: 50vw;
- height: 10vw;
+.quote-div {
+  background-color: deeppink;
+  width: 50vw;
+  height: 10vw;
 }
 
-.quote div h1 {
- color: goldenrod;
- font-family: sans-serif;
- margin: 5%;
+.quote-div h1 {
+  color: goldenrod;
+  font-family: sans-serif;
+  margin: 5%;
 }
 
 .intro-blurb div {
- background-color: darkred;
- width: 50vw;
- height: 10vw;
+  background-color: darkred;
+  width: 50vw;
+  height: 10vw;
 }
 
 .intro-blurb p {
- color: mediumseagreen;
- font-family: sans-serif;
+  color: mediumseagreen;
+  font-family: sans-serif;
 }
