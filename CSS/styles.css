@@ -105,3 +105,14 @@ body {
   color: mediumseagreen;
   font-family: sans-serif;
 }
+
+.form div {
+  background-color: darksalmon;
+  width: 50vw;
+  height: 50vw;
+}
+
+.form div h2 {
+  color: blueviolet;
+  font-family: sans-serif;
+}
