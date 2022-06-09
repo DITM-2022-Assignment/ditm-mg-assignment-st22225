@@ -74,12 +74,12 @@ body {
 /*Hompage Content Code*/
 .main-image div {
   background-color: aquamarine;
-  width: 130vw;
+  width: 100vw;
   height: 90vh;
 }
 
 .main-image img {
-  width: 120vw;
+  width: 100vw;
   height: 90vh;
 }
 
