@@ -38,7 +38,7 @@ body {
 
 /*Navigation Bar Code*/
 .navigation-div {
-  background-color: yellow;
+  background-color: darkorange;
   width: 70vw;
   height: 10vh;
 }
@@ -79,8 +79,8 @@ body {
 }
 
 .main-image img {
-  width: 100vw;
-  height: 90vh;
+  width: 85vw;
+  height: 85vh;
 }
 
 .quote-div {
@@ -90,7 +90,7 @@ body {
 }
 
 .quote-div h1 {
-  color: goldenrod;
+  color: whitesmoke;
   font-family: sans-serif;
   margin: 5%;
 }
@@ -107,24 +107,30 @@ body {
 }
 
 .form div {
-  background-color: darksalmon;
+  background-color: green;
   width: 50vw;
-  height: 50vw;
+  height: 22vw;
 }
 
 .form div h2 {
   color: blueviolet;
   font-family: sans-serif;
+  margin: 30%;
 }
 
+.about-preview div {
+  background-color: orchid;
+  width: 50vw;
+  height: 22vw;
+}
 /*Solutions Page Content*/
-.transiton-div div {
-  background-color: plum;
+.solution-preview div {
+  background-color: palevioletred;
   width: 110vw;
   height: 20vw;
 }
 
-.transiton-div h2 {
+.solution-preview h2 {
   color: beige;
   font-family: sans-serif;
   align-items: center;
@@ -134,4 +140,16 @@ body {
   background-color: aquamarine;
   width: 70vw;
   height: 85vw;
+}
+
+.donations-preview div {
+  background-color: violet;
+  width: fit-content;
+  height: fit-content;
+}
+
+.about-preview div {
+  background-color: palegreen;
+  width: 100vw;
+  height: 15vw;
 }
