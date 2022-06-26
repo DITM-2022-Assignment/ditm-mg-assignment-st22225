@@ -4,16 +4,169 @@ body {
   padding: 0px;
 }
 
+/*SOLUTIONS PAGE CSS*/
 .solutions.html body {
   background-color: darkcyan;
 }
 
+/*Logo Code*/
+.s-webpage-name div {
+  background-color: deepskyblue;
+  width: 30vw;
+  height: 10vh;
+}
+
+.s-webpage-name h1 {
+  color: lawngreen;
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*Navigation Bar Code*/
+.s-navigation-div {
+  background-color: darkorange;
+  width: 70vw;
+  height: 10vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.s-navigation-div ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-navigation-div ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 2%;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.nagivation-div ul li a {
+  text-decoration: none;
+  color: mediumvioletred;
+  transition: 0.3s ease 0s;
+  text-shadow: 5px 5px;
+  color: darkmagenta;
+  text-decoration: dotted;
+}
+
+.navigation-div ul li a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+/*ABOUT PAGE CSS*/
 .about.html body {
   background-color: chartreuse;
 }
 
+/*Logo Code*/
+.a-webpage-name div {
+  background-color: deepskyblue;
+  width: 30vw;
+  height: 10vh;
+}
+
+.a-webpage-name h1 {
+  color: lawngreen;
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*Navigation Bar Code*/
+.a-navigation-div {
+  background-color: darkorange;
+  width: 70vw;
+  height: 10vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a-navigation-div ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-navigation-div ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 2%;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.a-nagivation-div ul li a {
+  text-decoration: none;
+  color: mediumvioletred;
+  transition: 0.3s ease 0s;
+  text-shadow: 5px 5px;
+  color: darkmagenta;
+  text-decoration: dotted;
+}
+
+.a-nagivation-div ul li a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+/*FAQ PAGE CSS*/
 .donations.html body {
   background-color: crimson;
+}
+
+/*Logo Code*/
+.webpage-name div {
+  background-color: deepskyblue;
+  width: 30vw;
+  height: 10vh;
+}
+
+.webpage-name h1 {
+  color: lawngreen;
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*Navigation Bar Code*/
+.navigation-div {
+  background-color: darkorange;
+  width: 70vw;
+  height: 10vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation-div ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation-div ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 2%;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.nagivation-div ul li a {
+  text-decoration: none;
+  color: mediumvioletred;
+  transition: 0.3s ease 0s;
+  text-shadow: 5px 5px;
+  color: darkmagenta;
+  text-decoration: dotted;
+}
+
+.navigation-div ul li a:hover {
+  color: green;
+  text-decoration: underline;
 }
 
 .flex {
@@ -41,6 +194,7 @@ body {
   background-color: darkorange;
   width: 70vw;
   height: 10vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navigation-div ul {
@@ -136,9 +290,15 @@ body {
 }
 
 .main-image2 {
-  background-color: aquamarine;
-  width: 70vw;
-  height: 85vh;
+  background-image: url("/images/robert-collins-tvc5imO5pXk-unsplash.jpg");
+  width: 100vw;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .donations-preview div {
