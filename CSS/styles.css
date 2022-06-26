@@ -72,33 +72,33 @@ body {
 }
 
 /*Hompage Content Code*/
-.main-image div {
-  background-color: aquamarine;
+.main-image {
+  background-image: url("/images/zoe-schaeffer-PFbOZfKh07I-unsplash.jpg");
   width: 100vw;
   height: 90vh;
-}
-
-.main-image img {
-  width: 85vw;
-  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .quote-div {
-  background-color: deeppink;
   width: 50vw;
-  height: 10vw;
+  height: 10vh;
 }
 
 .quote-div h1 {
-  color: whitesmoke;
+  color: black;
   font-family: sans-serif;
   margin: 5%;
 }
 
-.intro-blurb div {
+.intro-blurb {
   background-color: darkred;
   width: 50vw;
-  height: 10vw;
+  height: 10vh;
 }
 
 .intro-blurb p {
@@ -106,10 +106,9 @@ body {
   font-family: sans-serif;
 }
 
-.form div {
-  background-color: green;
+.form {
   width: 50vw;
-  height: 22vw;
+  height: auto;
 }
 
 .form div h2 {
@@ -121,13 +120,13 @@ body {
 .about-preview div {
   background-color: orchid;
   width: 50vw;
-  height: 22vw;
+  height: 22vh;
 }
 /*Solutions Page Content*/
 .solution-preview div {
   background-color: palevioletred;
   width: 110vw;
-  height: 20vw;
+  height: 20vh;
 }
 
 .solution-preview h2 {
@@ -136,10 +135,10 @@ body {
   align-items: center;
 }
 
-.main-image div {
+.main-image2 {
   background-color: aquamarine;
   width: 70vw;
-  height: 85vw;
+  height: 85vh;
 }
 
 .donations-preview div {
@@ -151,5 +150,5 @@ body {
 .about-preview div {
   background-color: palegreen;
   width: 100vw;
-  height: 15vw;
+  height: 15vh;
 }
