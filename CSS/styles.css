@@ -269,9 +269,9 @@ body {
 }
 
 .intro-blurb {
-  background-color: burlywood;
-  width: 50vw;
-  height: 10vh;
+  background-color: bisque;
+  width: 35vw;
+  height: 45vh;
 }
 
 .intro-blurb p {
@@ -281,9 +281,9 @@ body {
 
 /*Main-image 2 Code*/
 .main-image2 {
-  background-image: url("/images/robert-collins-tvc5imO5pXk-unsplash.jpg");
-  width: 100vw;
-  height: 90vh;
+  background-image: url(/images/tree-green.gif);
+  width: 65vw;
+  height: 45vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
