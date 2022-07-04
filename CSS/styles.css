@@ -11,7 +11,7 @@ body {
 
 /*Logo Code*/
 .a-webpage-name div {
-  background-color: deepskyblue;
+  background-color: lightskyblue;
   width: 30vw;
   height: 10vh;
 }
@@ -25,7 +25,7 @@ body {
 
 /*Navigation Bar Code*/
 .a-navigation-div {
-  background-color: darkorange;
+  background-color: lightsalmon;
   width: 70vw;
   height: 10vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -178,7 +178,7 @@ body {
 
 /*Logo Code*/
 .webpage-name {
-  background-color: deepskyblue;
+  background-color: lightskyblue;
   width: 30vw;
   height: 10vh;
 }
@@ -192,7 +192,7 @@ body {
 
 /*Navigation Bar Code*/
 .navigation-div {
-  background-color: darkorange;
+  background-color: lightsalmon;
   width: 70vw;
   height: 10vh;
   font-family: sans-serif;
@@ -239,11 +239,6 @@ body {
   justify-content: center;
 }
 
-.quote-div {
-  width: 50vw;
-  height: 10vh;
-}
-
 .quote-div h1 {
   color: wheat;
   font-family: sans-serif;
@@ -254,29 +249,17 @@ body {
 .form {
   width: 50vw;
   height: auto;
-  margin: 10%;
+  margin-left: 40%;
 }
 
 .form h2 {
   color: limegreen;
   font-family: sans-serif;
-  margin: 15%;
 }
 
 .form h3 {
   color: rgb(73, 44, 44);
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.intro-blurb {
-  background-color: bisque;
-  width: 35vw;
-  height: 45vh;
-}
-
-.intro-blurb p {
-  color: mediumseagreen;
-  font-family: sans-serif;
 }
 
 /*Main-image 2 Code*/
@@ -292,11 +275,23 @@ body {
   justify-content: center;
 }
 
+.intro-blurb {
+  background-color: bisque;
+  width: 35vw;
+  height: 45vh;
+}
+
+.intro-blurb p {
+  color: mediumseagreen;
+  font-family: sans-serif;
+  margin: 2%;
+}
+
 /*Preview Content Code*/
 .about-preview {
-  background-color: orchid;
+  background-color: lightskyblue;
   width: fit-content;
-  height: fit-content;
+  height: 15vh;
 }
 
 .about-preview h2 {
@@ -312,9 +307,9 @@ body {
 }
 
 .solutions-preview {
-  background-color: palevioletred;
+  background-color: lightgreen;
   width: fit-content;
-  height: fit-content;
+  height: 15vh;
 }
 
 .solutions-preview h2 {
@@ -330,9 +325,9 @@ body {
 }
 
 .faq-preview {
-  background-color: violet;
+  background-color: lightsalmon;
   width: fit-content;
-  height: fit-content;
+  height: 15vh;
 }
 
 .faq-preview h2 {
