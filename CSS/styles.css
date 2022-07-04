@@ -59,7 +59,19 @@ body {
   text-decoration: underline;
 }
 
-/*--SOLUTIONS PAGE CSS--*/
+.about-image1 {
+  background-image: url("/images/ankit-choudhary-SDP7QQjHWNI-unsplash.jpg");
+  width: 98.5vw;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*--FAQ PAGE CSS--*/
 .solutions.html {
   background-color: darkcyan;
 }
@@ -114,9 +126,33 @@ body {
   text-decoration: underline;
 }
 
+.solutions-image1 {
+  background-image: url("/images/markus-spiske-n52HL8hmsdg-unsplash.jpg");
+  width: 98.5vw;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*--FAQ PAGE CSS--*/
 .donations.html body {
   background-color: crimson;
+}
+
+.faq-image1 {
+  background-image: url("/images/zoe-schaeffer-tbiV-yc903g-unsplash.jpg");
+  width: 98.5vw;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*--INDEX PAGE CSS--*/
@@ -208,7 +244,7 @@ body {
   display: inline-block;
   margin: 2%;
   font-family: sans-serif;
-  font-weight: bold;
+  font-weight: 550;
 }
 
 .nagivation-div ul li a {
@@ -242,6 +278,7 @@ body {
   color: wheat;
   font-family: sans-serif;
   margin: 5%;
+  margin-right: 10%;
 }
 
 /*Form Content Code*/
@@ -259,6 +296,12 @@ body {
 .form h3 {
   color: rgb(73, 44, 44);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.form h4 {
+  color: burlywood;
+  font-family: sans-serif;
+  font-weight: 300;
 }
 
 /*Main-image 2 Code*/
