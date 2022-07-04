@@ -195,7 +195,6 @@ body {
   background-color: lightsalmon;
   width: 70vw;
   height: 10vh;
-  font-family: sans-serif;
 }
 
 .navigation-div ul {
@@ -209,12 +208,12 @@ body {
   display: inline-block;
   margin: 2%;
   font-family: sans-serif;
-  font-style: oblique;
+  font-weight: bold;
 }
 
 .nagivation-div ul li a {
   text-decoration: none;
-  color: mediumvioletred;
+  color: rgb(73, 44, 44);
   transition: 0.3s ease 0s;
   text-shadow: 5px 5px;
   color: darkmagenta;
@@ -229,7 +228,7 @@ body {
 /*Hompage Content Code*/
 .main-image {
   background-image: url("/images/zoe-schaeffer-PFbOZfKh07I-unsplash.jpg");
-  width: 100vw;
+  width: 98.5vw;
   height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -249,7 +248,7 @@ body {
 .form {
   width: 50vw;
   height: auto;
-  margin-left: 40%;
+  margin-left: 45%;
 }
 
 .form h2 {
@@ -277,7 +276,7 @@ body {
 
 .intro-blurb {
   background-color: bisque;
-  width: 35vw;
+  width: 34vw;
   height: 45vh;
 }
 
@@ -290,44 +289,45 @@ body {
 /*Preview Content Code*/
 .about-preview {
   background-color: lightskyblue;
-  width: fit-content;
+  width: 65vw;
   height: 15vh;
 }
 
 .about-preview h2 {
-  color: antiquewhite;
+  color: lightblue;
   font-family: Arial, Helvetica, sans-serif;
   align-items: center;
 }
 
 .about-preview h3 {
-  color: antiquewhite;
+  color: lightblue;
   font-family: Arial, Helvetica, sans-serif;
   align-items: center;
 }
 
 .solutions-preview {
   background-color: lightgreen;
-  width: fit-content;
+  width: 65vw;
   height: 15vh;
 }
 
 .solutions-preview h2 {
-  color: beige;
+  color: rgb(192, 242, 192);
   font-family: sans-serif;
   align-items: center;
 }
 
 .solutions-preview h3 {
-  color: beige;
+  color: rgb(192, 242, 192);
   font-family: sans-serif;
   align-items: center;
 }
 
 .faq-preview {
   background-color: lightsalmon;
-  width: fit-content;
+  width: 65vw;
   height: 15vh;
+  margin-right: 34%;
 }
 
 .faq-preview h2 {
@@ -340,4 +340,18 @@ body {
   color: bisque;
   font-family: Arial, Helvetica, sans-serif;
   align-items: center;
+}
+
+/*Main-image 3 Code*/
+.main-image3 {
+  background-image: url(/images/olena-sergienko-r0M9HrfJMBM-unsplash.jpg);
+  width: 33.5vw;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100%;
 }
