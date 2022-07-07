@@ -1,215 +1,8 @@
+/*--INDEX PAGE CSS--*/
 body {
   background-color: mintcream;
   margin: 0px;
   padding: 0px;
-}
-
-/*--ABOUT PAGE CSS--*/
-.about.html {
-  background-color: chartreuse;
-}
-
-/*Logo Code*/
-.a-webpage-name div {
-  background-color: lightskyblue;
-  width: 30vw;
-  height: 10vh;
-}
-
-.a-webpage-name h1 {
-  color: lawngreen;
-  font-family: sans-serif;
-  padding: 0px;
-  margin: 0px;
-}
-
-/*Navigation Bar Code*/
-.a-navigation-div {
-  background-color: lightsalmon;
-  width: 70vw;
-  height: 10vh;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.a-navigation-div ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.a-navigation-div ul li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 2%;
-  font-family: sans-serif;
-  font-style: normal;
-}
-
-.a-nagivation-div ul li a {
-  text-decoration: none;
-  color: mediumvioletred;
-  transition: 0.3s ease 0s;
-  text-shadow: 5px 5px;
-  color: darkmagenta;
-  text-decoration: dotted;
-}
-
-.a-nagivation-div ul li a:hover {
-  color: green;
-  text-decoration: underline;
-}
-
-.about-image1 {
-  background-image: url("/images/ankit-choudhary-SDP7QQjHWNI-unsplash.jpg");
-  width: 98.5vw;
-  height: 90vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/*--FAQ PAGE CSS--*/
-.solutions.html {
-  background-color: darkcyan;
-}
-
-/*Logo Code*/
-.s-webpage-name div {
-  background-color: deepskyblue;
-  width: 30vw;
-  height: 10vh;
-}
-
-.s-webpage-name h1 {
-  color: lawngreen;
-  font-family: sans-serif;
-  padding: 0px;
-  margin: 0px;
-}
-
-/*Navigation Bar Code*/
-.s-navigation-div {
-  background-color: darkorange;
-  width: 70vw;
-  height: 10vh;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.s-navigation-div ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.s-navigation-div ul li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 2%;
-  font-family: sans-serif;
-  font-style: normal;
-}
-
-.s-nagivation-div ul li a {
-  text-decoration: none;
-  color: mediumvioletred;
-  transition: 0.3s ease 0s;
-  text-shadow: 5px 5px;
-  color: darkmagenta;
-  text-decoration: dotted;
-}
-
-.s-nagivation-div ul li a:hover {
-  color: green;
-  text-decoration: underline;
-}
-
-.solutions-image1 {
-  background-image: url("/images/markus-spiske-n52HL8hmsdg-unsplash.jpg");
-  width: 98.5vw;
-  height: 90vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/*--FAQ PAGE CSS--*/
-.donations.html body {
-  background-color: crimson;
-}
-
-.faq-image1 {
-  background-image: url("/images/zoe-schaeffer-tbiV-yc903g-unsplash.jpg");
-  width: 98.5vw;
-  height: 90vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/*--INDEX PAGE CSS--*/
-/*Logo Code*/
-.webpage-name div {
-  background-color: deepskyblue;
-  width: 30vw;
-  height: 10vh;
-}
-
-.webpage-name h1 {
-  color: lawngreen;
-  font-family: sans-serif;
-  padding: 0px;
-  margin: 0px;
-}
-
-/*Navigation Bar Code*/
-.navigation-div {
-  background-color: darkorange;
-  width: 70vw;
-  height: 10vh;
-}
-
-.navigation-div ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.navigation-div ul li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 2%;
-  font-family: sans-serif;
-  font-style: normal;
-}
-
-.nagivation-div ul li a {
-  text-decoration: none;
-  color: mediumvioletred;
-  transition: 0.3s ease 0s;
-  text-shadow: 5px 5px;
-  color: darkmagenta;
-  text-decoration: dotted;
-}
-
-.navigation-div ul li a:hover {
-  color: green;
-  text-decoration: underline;
-}
-
-/*INDEX PAGE CSS*/
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /*Logo Code*/
@@ -254,11 +47,6 @@ body {
   text-shadow: 5px 5px;
   color: darkmagenta;
   text-decoration: dotted;
-}
-
-.navigation-div ul li a:hover {
-  color: green;
-  text-decoration: underline;
 }
 
 /*Hompage Content Code*/
@@ -397,4 +185,205 @@ body {
   align-items: center;
   justify-content: center;
   margin-left: 100%;
+}
+
+/*--ABOUT PAGE CSS--*/
+.about.html {
+  background-color: chartreuse;
+}
+
+/*Logo Code*/
+.a-webpage-name div {
+  background-color: lightskyblue;
+  width: 30vw;
+  height: 10vh;
+}
+
+.a-webpage-name h1 {
+  color: lawngreen;
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*Navigation Bar Code*/
+.a-navigation-div {
+  background-color: lightsalmon;
+  width: 70vw;
+  height: 10vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a-navigation-div ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-navigation-div ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 2%;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.about-blurb {
+  background-color: bisque;
+  width: 34vw;
+  height: 45vh;
+}
+
+.about-blurb p {
+  color: mediumseagreen;
+  font-family: sans-serif;
+  margin: 2%;
+}
+
+.about-image1 {
+  background-image: url("/images/ankit-choudhary-SDP7QQjHWNI-unsplash.jpg");
+  width: 50vw;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*--SOLUTIONS PAGE CSS--*/
+.solutions.html {
+  background-color: darkcyan;
+}
+
+/*Logo Code*/
+.s-webpage-name div {
+  background-color: deepskyblue;
+  width: 30vw;
+  height: 10vh;
+}
+
+.s-webpage-name h1 {
+  color: lawngreen;
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*Navigation Bar Code*/
+.s-navigation-div {
+  background-color: lightsalmon;
+  width: 70vw;
+  height: 10vh;
+  font-family: sans-serif;
+}
+
+.s-navigation-div ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-navigation-div ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 2%;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.solutions-blurb {
+  background-color: bisque;
+  width: 60vw;
+  height: 50vh;
+}
+
+.solutions-blurb p {
+  color: mediumseagreen;
+  font-family: sans-serif;
+  margin: 2%;
+}
+
+.solutions-image1 {
+  background-image: url("/images/markus-spiske-n52HL8hmsdg-unsplash.jpg");
+  width: 40;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*--FAQ PAGE CSS--*/
+.faq.html body {
+  background-color: crimson;
+}
+
+/*Logo Code*/
+.f-webpage-name div {
+  background-color: deepskyblue;
+  width: 30vw;
+  height: 10vh;
+}
+
+.f-webpage-name h1 {
+  color: lawngreen;
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*Navigation Bar Code*/
+.f-navigation-div {
+  background-color: lightsalmon;
+  width: 70vw;
+  height: 10vh;
+}
+
+.f-navigation-div ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-navigation-div ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 2%;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-blurb {
+  background-color: bisque;
+  width: 60vw;
+  height: 50vh;
+}
+
+.faq-blurb p {
+  color: mediumseagreen;
+  font-family: sans-serif;
+  margin: 2%;
+}
+
+/*Faq page Content*/
+.faq-image1 {
+  background-image: url("/images/zoe-schaeffer-tbiV-yc903g-unsplash.jpg");
+  width: 40vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
